@@ -80,7 +80,7 @@ class App extends Component {
                 key={character.id}
                 name={character.name}
                 image={character.image}
-                clickedImage={this.clickedImage}
+                handleClick={this.handleClick}
                 />
             ))}
             </div>
