@@ -32,7 +32,7 @@ This is a clicky game application that was created using react.js.  The user is 
 ## Installation
 
 ```
-npm start
+yarn start
 ```
 
 
@@ -46,12 +46,6 @@ This project was written by: Ken Tanoue.
 ## License
 
 MIT
-
-## Tests
-
-```
-node server.js
-```
 
 ## Questions
 
