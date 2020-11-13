@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Card from "./components/characters/Card";
 import Header from "./components/header/header";
 import Container from "./components/container/Container";
-import characters from "./characters.json"
+import characters from "./characters"
 
 // Random shuffle of characters
 function randomShuffle(array) {
