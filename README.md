@@ -17,7 +17,7 @@
 
 This is a clicky game application that was created using react.js.  The user is given 12 different character to review and click on.  The object of the game is to not click on the same character twice.  There is also a score and top score counter that tracks the user score at the top of the page.
 
-![Clicky-Game]()
+![Clicky-Game](https://github.com/kent28808/Clicky-Game/blob/main/public/app.png)
 
 ## Deployed Link
 * [Clicky-Game](https://kent28808.github.io/Clicky-Game/)
