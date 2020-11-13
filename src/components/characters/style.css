@@ -1,7 +1,9 @@
 .card {
     background:white;
     border-radius: n0px;
+    width: 33%;
     height: 250px;
+    border: 0;
   }
   .card .img-container {
     height: 100%;

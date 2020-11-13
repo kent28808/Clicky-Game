@@ -19,13 +19,17 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     characters,
-    score: 0,
+    currentScore: 0,
     topScore: 0,
     correctIncorrect: "",
     clicked: [],
   };
 
-  
+  componentDidUpdate(prevProps,prevState){
+    if(prevState.correctIncorrect !== this.state.correctIncorrect){
+      alert(this.state.correctIncorrect)
+    }
+  }
   handleClick = id => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
@@ -69,9 +73,10 @@ class App extends Component {
     return (    
       <Container>
          <Header
-            score={this.state.score}
+            score={this.state.currentScore}
             message={this.state.message}
-            topScore={this.state.topScore} />
+            topScore={this.state.topScore} 
+            />
         <div class="container"> 
           <div class="row">
             {this.state.characters.map(character => (
